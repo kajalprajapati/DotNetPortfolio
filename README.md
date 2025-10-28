@@ -25,6 +25,10 @@ WCF+.netcoreRestAPI\AINotesHub\ ← Root solution folder
    `git clone https://github.com/<your-username>/AINotesHub.git`
 2. Open `AINotesHub.sln` in Visual Studio
 3. Set **Multiple Startup Projects** → Start both **API** & **WPF**
+ **Open the solution in Visual Studio 2022**
+ Set **Multiple Startup Projects:**
+ AINotesHub.API → Start
+ AINotesHub.WPF → Start
 4. Run the solution 🎯
 
 ## 🧰 Tech Stack
