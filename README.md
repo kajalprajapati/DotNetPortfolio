@@ -1,40 +1,52 @@
-# AINotesHub
+# 👨‍💻 Kajal Prajapati - .NET Developer Portfolio
 
-A **.NET 8** solution combining **WPF**, **ASP.NET Core REST API**, and a **shared class library**.  
-This project demonstrates a real-world architecture where both the desktop app and API communicate using shared models.
+Welcome to my portfolio. I am a C#/.NET developer with experience in building backend APIs, desktop applications, and automation tools.
 
-## 🧩 Structure
-WCF+.netcoreRestAPI\AINotesHub\ ← Root solution folder
-│
-│ AINotesHub.sln ← Solution file
-│ (Created by selecting Blank Solution in Visual Studio 2022)
-│
-├── AINotesHub.Shared ← Class Library (.NET 8) → Shared Models & Helpers
-├── AINotesHub.API ← ASP.NET Core Web API (.NET 8) → Backend Services
-└── AINotesHub.WPF ← WPF Application (.NET 8) → Desktop Client
+---
 
-## 🧠 Notes
+## 🚀 Projects
 
-- Each project is part of a single solution (`AINotesHub.sln`).  
-- You can **start multiple projects** simultaneously — for example, run both **API** and **WPF** together.  
-- Or select a **single project** as the startup project (API or WPF individually).  
-- Shared models are used across API and WPF for consistent data representation.
+### 🔹 JobTracker API
+https://github.com/kajalprajapati/JobTrackerAPI
 
-## ⚙️ How to Run
-1. Clone the repo  
-   `git clone https://github.com/<your-username>/AINotesHub.git`
-2. Open `AINotesHub.sln` in Visual Studio
-3. Set **Multiple Startup Projects** → Start both **API** & **WPF**
- **Open the solution in Visual Studio 2022**
- Set **Multiple Startup Projects:**
- AINotesHub.API → Start
- AINotesHub.WPF → Start
-4. Run the solution 🎯
+A backend API built using ASP.NET Core to manage and track job applications.
 
-## 🧰 Tech Stack
-- .NET 8 / C#
-- ASP.NET Core Web API
-- WPF (MVVM)
-- Entity Framework Core
-- Clean Architecture
-- Visual Studio 2022
+**Key Features:**
+- CRUD operations for job applications  
+- JWT-based authentication  
+- Database handling using Entity Framework Core  
+- Logging using Serilog  
+- Clean and modular structure  
+
+---
+
+### 🔹 AI Notes Hub
+https://github.com/kajalprajapati/AI-Notes-Hub
+
+A .NET 8 solution combining a WPF desktop application and an ASP.NET Core Web API using shared models.
+
+**Key Features:**
+- WPF desktop client (MVVM pattern)  
+- REST API backend  
+- Shared class library for consistent data models  
+- Database access using Dapper  
+- Structured multi-project solution  
+
+---
+
+## 🧰 Skills
+
+- C#, .NET / .NET Core  
+- ASP.NET Core Web API  
+- WPF (MVVM)  
+- Entity Framework Core  
+- Dapper  
+- REST APIs  
+- SQL Server  
+- Git & GitHub  
+
+---
+
+## 📫 Contact
+
+- GitHub: https://github.com/kajalprajapati  
